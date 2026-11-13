@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <meta
+        name="description"
+        content="Listado de casos registrados en el sistema de rescate y adopción animal."
+    >
+    <title>Casos registrados | Rescate y Adopción Animal</title>
+</head>
+
+<body>
+    <header>
+        <img
+            src="assets/img/logo-rescate-adopcion.png"
+            alt="Logotipo de Rescate y Adopción Animal"
+            width="150"
+            height="150"
+        >
+
+        <h1>Casos de rescate registrados</h1>
+
+        <p>
+            Consulta la información y el estado de los animales
+            atendidos por la red comunitaria.
+        </p>
+    </header>
+
+    <nav aria-label="Navegación principal">
+        <ul>
+            <li>
+                <a href="index.html">
+                    Inicio
+                </a>
+            </li>
+            <li>
+                <a href="reportar.html">
+                    Reportar rescate
+                </a>
+            </li>
+            <li>
+                <a href="rescates.html" aria-current="page">
+                    Casos registrados
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <section aria-labelledby="listado-casos">
+            <h2 id="listado-casos">Listado general de rescates</h2>
+
+            <p>
+                La siguiente tabla presenta los casos registrados,
+                su categoría, nivel de urgencia y estado actual.
+            </p>
+
+            <table>
+                <caption>
+                    Seguimiento de animales rescatados
+                </caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Código</th>
+                        <th scope="col">Nombre provisional</th>
+                        <th scope="col">Categoría</th>
+                        <th scope="col">Urgencia</th>
+                        <th scope="col">Ubicación</th>
+                        <th scope="col">Estado</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">RA-001</th>
+                        <td>Luna</td>
+                        <td>Perro</td>
+                        <td>Alta</td>
+                        <td>Parque central</td>
+                        <td>En atención veterinaria</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">RA-002</th>
+                        <td>Tom</td>
+                        <td>Gato</td>
+                        <td>Media</td>
+                        <td>Sector universitario</td>
+                        <td>En recuperación</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">RA-003</th>
+                        <td>Alas</td>
+                        <td>Fauna Silvestre</td>
+                        <td>Alta</td>
+                        <td>Zona rural</td>
+                        <td>Derivado a entidad especializada</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">RA-004</th>
+                        <td>Canela</td>
+                        <td>Perro</td>
+                        <td>Baja</td>
+                        <td>Barrio Los Jardines</td>
+                        <td>Disponible para adopción</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">RA-005</th>
+                        <td>Nube</td>
+                        <td>Gato</td>
+                        <td>Media</td>
+                        <td>Mercado municipal</td>
+                        <td>En hogar temporal</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section aria-labelledby="estados-seguimiento">
+            <h2 id="estados-seguimiento">
+                Estados de seguimiento
+            </h2>
+
+            <article>
+                <h3>En evaluación</h3>
+
+                <p>
+                    El reporte fue recibido y se está verificando
+                    la información para coordinar la asistencia.
+                </p>
+            </article>
+
+            <article>
+                <h3>En atención veterinaria</h3>
+
+                <p>
+                    El animal está siendo examinado o recibe
+                    tratamiento por parte de personal veterinario.
+                </p>
+            </article>
+
+            <article>
+                <h3>En recuperación</h3>
+
+                <p>
+                    El animal se encuentra estable y continúa bajo
+                    observación antes de avanzar a la siguiente
+                    etapa.
+                </p>
+            </article>
+
+            <article>
+                <h3>En hogar temporal</h3>
+
+                <p>
+                    El animal permanece bajo cuidado provisional
+                    mientras se determina una solución permanente.
+                </p>
+            </article>
+
+            <article>
+                <h3>Disponible para adopción</h3>
+
+                <p>
+                    El animal finalizó su recuperación y puede
+                    iniciar un proceso de adopción responsable.
+                </p>
+            </article>
+        </section>
+
+        <section aria-labelledby="adopcion-responsable">
+            <h2 id="adopcion-responsable">
+                Compromisos para una adopción responsable
+            </h2>
+
+            <p>
+                Antes de iniciar un proceso de adopción, la persona
+                interesada debe considerar los siguientes aspectos:
+            </p>
+
+            <ul>
+                <li>
+                    Disponer de tiempo para la alimentación,
+                    limpieza y convivencia diaria.
+                </li>
+                <li>
+                    Proporcionar atención veterinaria periódica.
+                </li>
+                <li>
+                    Mantener el esquema de vacunación y
+                    desparasitación.
+                </li>
+                <li>
+                    Garantizar un espacio protegido y adecuado.
+                </li>
+                <li>
+                    Aceptar el seguimiento posterior a la adopción.
+                </li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="nuevo-caso">
+            <h2 id="nuevo-caso">Registrar otro caso</h2>
+
+            <p>
+                Si conoces un animal que requiere ayuda, utiliza
+                el formulario de ingreso para comunicar la
+                situación.
+            </p>
+
+            <p>
+                <a href="reportar.html">
+                    Ir al formulario de reporte
+                </a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            Sistema de Rescate y Adopción Animal
+        </p>
+
+        <address>
+            Contacto:
+            <a href="mailto:mromero0587@utm.edu.ec">
+                mromero0587@utm.edu.ec
+            </a>
+        </address>
+
+        <p>
+            Actividad # 3.
+        </p>
+    </footer>
+</body>
+</html>
